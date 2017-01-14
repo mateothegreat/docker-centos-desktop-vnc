@@ -1,4 +1,4 @@
 #!/bin/bash
 
-docker build -t appsoa/centos-desktop-vnc:testing .
+docker build -t appsoa/docker-centos-desktop-vnc:testing .
 
