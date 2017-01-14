@@ -3,7 +3,7 @@
 #
 #
 #
-FROM appsoa/docker-centos-desktop-xfce:testing
+FROM appsoa/docker-centos-desktop-xfce:latest
 
 ENV DISPLAY=:1 \
     NO_VNC_HOME="/opt/noVNC" \
