@@ -25,6 +25,11 @@ docker run -it  -e CONF_VNC_PASS=changeme \
 ```
 
 ```
-[matthew@sandbox-1 ~]$ ./docker-centos-tools/build.sh docker-centos-desktop-vnc/ virtualmachines-154415 docker-centos-desktop-vnc 1.0.0 gcr.io
+
+docker-centos-tools/build.sh docker-centos-desktop-vnc/ virtualmachines-154415 docker-centos-desktop-vnc 1.0.0-4 gcr.io '--no-cache' 
+
+docker-centos-tools/push.sh docker-centos-desktop-vnc virtualmachines-154415 docker-centos-desktop-vnc 1.0.0-4 gcr.io 
+
+
 ```
 
