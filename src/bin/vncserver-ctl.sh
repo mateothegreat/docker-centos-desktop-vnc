@@ -14,6 +14,6 @@ NO_VNC_PORT="690"${DISPLAY:1}
 # vncserver -kill :1
 # rm -rfv /tmp/.X*
 vncserver $DISPLAY -depth $VNC_COL_DEPTH -geometry $VNC_RESOLUTION
-startxfce4 &
+# startxfce4 &
 # sleep 1
 # tail -f ~/.vnc/*$DISPLAY.log
