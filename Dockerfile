@@ -3,7 +3,8 @@
 #
 #
 #
-FROM gcr.io/virtualmachines-154415/docker-centos-desktop-xfce:1.0.0-4
+FROM appsoa/docker-centos-desktop-xfce:latest
+MAINTAINER Matthew Davis <matthew@appsoa.io>
 
 ENV DISPLAY=:1 \
     VNC_COL_DEPTH="16" \
